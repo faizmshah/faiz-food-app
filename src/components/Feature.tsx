@@ -34,7 +34,7 @@ const Feature = () => {
                 <div className="space-y-4">
                     <Dash />
                     <h2 className="font-medium text-xl"> Authentic Butter Chicken</h2>
-                    <p className="text-gray-700 text-[14px] xl:text-[16px]">Rich, creamy, and bursting with flavors, our butter chicken is a culinary masterpiece. Made with tender chicken pieces simmered in a spiced tomato-based curry, it's perfect for savoring with naan or rice.</p>
+                    <p className="text-gray-700 text-[14px] xl:text-[16px]">Rich, creamy, and bursting with flavors, our butter chicken is a culinary masterpiece. Made with tender chicken pieces simmered in a spiced tomato-based curry, it&apos;s perfect for savoring with naan or rice.</p>
                 </div>
             </div>
 
