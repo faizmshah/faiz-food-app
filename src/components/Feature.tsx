@@ -6,13 +6,13 @@ import { headerItems } from '@/constants/constant';
 const Feature = () => {
   return (
     <section id={headerItems.about.page}>
-        <div className='container pt-30 px-4 md:px-20'>
+        <div className="container pt-30 px-4 md:px-20">
         <h2 className="text-6xl font-bold">Our</h2>
         <h2 className="text-6xl font-bold pt-2">
-            Featured <span className='text-accent'>Food</span>
+            Featured <span className="text-accent">Food</span>
         </h2>
         
-        <p className='max-w-[550px] pt-10 text-gray-700'>
+        <p className="max-w-[550px] pt-10 text-gray-700">
         Discover our featured dish, a culinary masterpiece that combines the freshest ingredients with flavors that will tantalize your taste buds. Each bite is a celebration of tradition and innovation, crafted with care to deliver an unforgettable dining experience.
 
         </p>
@@ -20,7 +20,7 @@ const Feature = () => {
 
         <div className="grid md:grid-cols-[1fr_37%_1fr] gap-16 mt-10">
             <div className="w-fit mx-auto self-end">
-                <Image className='w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl' src="/grid__1.png" width ={300} height={600} alt="grid image" />
+                <Image className="w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl" src="/grid__1.png" width ={300} height={600} alt="grid image" />
                 <div className="space-y-4">
                     <Dash />
                     <h2 className="font-medium text-xl"> Vibrant Veggie Delight</h2>
@@ -30,7 +30,7 @@ const Feature = () => {
 
 
             <div className="w-fit mx-auto">
-                <Image className='w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl' src="/grid__2.png" width ={500} height={900} alt="grid image" />
+                <Image className="w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl" src="/grid__2.png" width ={500} height={900} alt="grid image" />
                 <div className="space-y-4">
                     <Dash />
                     <h2 className="font-medium text-xl"> Authentic Butter Chicken</h2>
@@ -40,7 +40,7 @@ const Feature = () => {
 
 
             <div className="w-fit mx-auto self-end">
-                <Image className='w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl' src="/grid__3.png" width ={300} height={600} alt="grid image" />
+                <Image className="w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl" src="/grid__3.png" width ={300} height={600} alt="grid image" />
                 <div className="space-y-4">
                     <Dash />
                     <h2 className="font-medium text-xl"> Hearty Meatball Stew</h2>

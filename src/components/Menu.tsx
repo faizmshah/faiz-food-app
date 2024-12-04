@@ -2,7 +2,7 @@ import React from 'react';
 import Dash from './Dash';
 import Image from 'next/image';
 import MenuCard from './MenuCard';
-import { title } from 'process';
+
 import { headerItems } from '@/constants/constant';
 
 const MenuData = [{
